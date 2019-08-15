@@ -22,5 +22,13 @@ async def makia(ctx):
 @bot.command()
 async def maro(ctx):
     await ctx.send('https://twitter.com/Marron_castana')
-
+    
+@bot.command()
+async def cotton(ctx):
+    await ctx.send('https://twitter.com/cotton_alta_')
+    
+@bot.command()
+async def botton(ctx):
+    await ctx.send('benjoo')
+    
 bot.run(token)
