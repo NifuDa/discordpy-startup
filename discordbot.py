@@ -19,5 +19,8 @@ async def ping(ctx):
 async def makia(ctx):
     await ctx.send('https://twitter.com/makia_ymgc')
 
+@bot.command()
+async def maro(ctx):
+    await ctx.send('https://twitter.com/Marron_castana')
 
 bot.run(token)
